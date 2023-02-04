@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;600&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #05292e;
+    font-family: 'Archivo Narrow', sans-serif;
+    color: whitesmoke;
+}
+h1, h2, h3, p, ul{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul{
+    list-style: none;
+}
+img{
+    display: block;
+    width: 100%;
+}
+input{
+    outline: none;
+}
+button{
+    border: none;
+}
+
+.head-logo{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 3rem;
+}
+
+.form-cont{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form{
+    height: 2.7rem;
+    margin: 0;
+    padding: 0 1rem;
+    max-width: 500px;
+}
+
+#changerannum{
+    border-radius: 0.5rem 0 0 0.5rem;
+    width:350px;
+}
+
+#buttonform{
+    background-color: #14adcc;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 1rem;
+    color: whitesmoke;
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+
+#buttonform:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.card-container{
+    max-width: 1200px;
+}
+
+.loc-card{
+    background-color: #062226;
+    max-width: 800px;
+    margin: 3rem auto;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.loc-card ul{
+    display:flex;
+    padding-left:3px;
+    padding-right:3px;  
+    line-height: 1.7rem;
+    gap: 5rem;
+    margin-left: 2rem;
+    font-size: 1.1rem;
+}
+
+.card-resident{
+    max-width: 280px;
+    border-radius: 1rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.card-resident{
+    background-color: rgb(6 34 38);
+}
+
+.cont-resident{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px;
+}
+
+.status-char{
+    position: absolute;
+    top: 1rem;
+    left: -9px;
+    background-color: rgb(6 34 38);
+    border-radius: 0.8rem;
+    padding: 5px 3rem 5px 0.7rem;
+    display: flex;
+    gap: 1rem;
+
+    font-size: 0.85rem;
+}
+
+.circle-status{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: red;
+    margin: auto;
+}
+
+.headCharcard h2{
+    padding: 0.8rem;
+    padding-bottom: 0;
+}
+
+.headCharcard hr{
+    width: 90%;
+    color: rgb(128, 128, 128);
+    border-style: solid;
+}
+
+.info-charcard{
+    padding: 0 0 0.5rem 0.8rem;
+    color: rgb(167, 167, 167);
+    font-size: 0.9rem;
+}
+
+.bold-char{
+    font-size: 1.2rem;
+    color: whitesmoke;
+}
+
+.list-location{
+    position: absolute;
+    left: 50%;
+    top: 86%;
+    transform: translate(-50%);
+    z-index: 1000;
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 200px;
+    width: 190px;
+    overflow-y: scroll;
+    padding-top: 1rem;
+
+    background-color: #14adcc92;
+}
